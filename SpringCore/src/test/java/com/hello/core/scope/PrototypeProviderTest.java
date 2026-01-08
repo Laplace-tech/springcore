@@ -35,7 +35,7 @@ public class PrototypeProviderTest {
 	@Scope("singleton")
 	static class ClientBean {
 		
-//		1. 병신 : private final ApplicationContext ac;
+//		1.: private final ApplicationContext ac;
 		
 //		2. private final ObjectProvider<PrototypeBean> prototypeBeanProvider;
 		
@@ -77,3 +77,4 @@ public class PrototypeProviderTest {
 	}
 	
 }
+
