@@ -37,7 +37,7 @@ public class ApplicationContextExtendsFindTest {
 	}
 	
 	@Test
-	@DisplayName("특정 하위 타입으로 조회 (병신)")
+	@DisplayName("특정 하위 타입으로 조회")
 	public void findBeanBySubType() {
 		DiscountPolicy rateDiscountPolicy = ac.getBean(RateDiscountPolicy.class);
 		assertThat(rateDiscountPolicy).isInstanceOf(DiscountPolicy.class);
@@ -76,3 +76,4 @@ public class ApplicationContextExtendsFindTest {
 	}
 	
 }
+
